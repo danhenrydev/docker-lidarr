@@ -21,6 +21,7 @@ RUN \
     chromaprint \
     icu-libs \
     sqlite-libs \
+    ffmpeg \
     xmlstarlet && \
   echo "**** install lidarr ****" && \
   mkdir -p /app/lidarr/bin && \
